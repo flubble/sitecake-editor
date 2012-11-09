@@ -45,19 +45,19 @@ public interface MessagesFr extends com.google.gwt.i18n.client.Messages, Message
 	@DefaultMessage("Envoi en cours:")
 	String uploadingFiles();
 	
-	@DefaultMessage("Le plugin Chrom Frame doit être installé sur votre navigateur web pour que l’éditeur de SiteCake fonctionne.")
+	@DefaultMessage("Le plugin Chrome Frame doit être installé sur votre navigateur web pour que l’éditeur de SiteCake fonctionne.")
 	String cfMissingMessage();
 	
 	@DefaultMessage("Style par défaut")
 	String defaultStyle();
 	
-	@DefaultMessage("Web link")
+	@DefaultMessage("Lien web")
 	String linkEditorWebLink();
 	
-	@DefaultMessage("Email link")
+	@DefaultMessage("Lien email")
 	String linkEditorMailtoLink();
 	
-	@DefaultMessage("Toutes les modifications n’ont pas encore été toutes sauvegardées. Êtes-vos sûr(e) de vouloir continuer?")
+	@DefaultMessage("Toutes les modifications n’ont pas encore été sauvegardées. Êtes-vous sûr(e) de vouloir continuer?")
 	String confirmUnsafeLogout();
 	
 	@DefaultMessage("Une erreur s’est produite pendant la récupération de la licence.")
@@ -81,7 +81,7 @@ public interface MessagesFr extends com.google.gwt.i18n.client.Messages, Message
 	@DefaultMessage("Le type du fichier sélectionné <strong>{0}</strong> n’est pas autorisé à l’envoi.")
 	String invalidUploadFileType(String file);
 	
-	@DefaultMessage("La tentative de sauvegarde des modification à echoué. Merci de bien vouloir retenter...")
+	@DefaultMessage("La tentative de sauvegarde des modifications à echoué. Merci de bien vouloir retenter...")
 	String failedAttemptToSaveContent();
 	
 	@DefaultMessage("Une erreur s’est produite pendant la sauvegarde des modifications.")
